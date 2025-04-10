@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "buildCommand": "cd swap-sil-master && npm install && npm run build",
-  "outputDirectory": "swap-sil-master/build",
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "build",
   "framework": "create-react-app",
   "routes": [
     {
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "env": {
+    "NODE_VERSION": "14.x"
+  }
 } 
