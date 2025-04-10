@@ -62,7 +62,7 @@
     "prettier": "^2.1.2"
   },
   "engines": {
-    "node": "14.x"
+    "node": "22.x"
   },
   "resolutions": {
     "@babel/core": "7.19.6",
