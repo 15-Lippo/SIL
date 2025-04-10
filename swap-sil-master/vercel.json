@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "npm install && npm run build",
+  "buildCommand": "yarn install && yarn build",
   "outputDirectory": "build",
   "framework": "create-react-app",
   "routes": [
@@ -10,6 +10,7 @@
     }
   ],
   "env": {
-    "NODE_VERSION": "14.x"
+    "NODE_VERSION": "14.x",
+    "NPM_FLAGS": "--legacy-peer-deps"
   }
 } 
